@@ -117,7 +117,7 @@
 #   route_table_id = aws_route_table.data2_prv_RT.id
 # }
 # Create KEY PAIR
-resource "aws_key_pair" "test_key" {
-  key_name   = "test_key"
-  public_key = file(var.path_to_public_Key)
-} 
+# resource "aws_key_pair" "test_key" {
+#   key_name   = "test_key"
+#   public_key = file(var.path_to_public_Key)
+# } 
