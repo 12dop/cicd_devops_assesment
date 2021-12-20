@@ -3,6 +3,6 @@
 # description = "path to public key"
 # }
 
-variable "codestar_connector_credentials" {
-    type = string
-}
+#variable "codestar_connector_credentials" {
+ #   type = string
+#}
